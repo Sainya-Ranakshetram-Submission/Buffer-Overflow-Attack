@@ -8,4 +8,7 @@ I was given a c++ file under the [question.cpp](https://github.com/Sainya-Ranaks
 So I made [application_crasher.py](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/application_crasher.py) which is written in `python3.8` in order to crash that [question.cpp](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/question.cpp).
 The [application_crasher.py](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/application_crasher.py) just communicate with console and since [question.cpp](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/question.cpp) just needed a random number so the [application_crasher.py](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/application_crasher.py) just give a random number to console whenever there is a activity in the console.
 
-Thus for [application_crasher.py](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/application_crasher.py) to work, the [question.cpp](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/question.cpp) should be run be first then the [application_crasher.py](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/application_crasher.py) in the same terminal only.
+Thus for [application_crasher.py](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/application_crasher.py) to work, just run
+```console
+python application_crasher.py
+```
