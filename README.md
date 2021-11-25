@@ -3,6 +3,9 @@
 Buffer Overflow is a common vulnerability in applications which allows hackers to exploit the system using unsanitised input. The given application is known to have buffer overflow vulnerability. Develop an executable code snippet to crash the given application using Buffer Overflow vulnerability. No payload is required for the application.
 
 ## Solution
+```
+Flag: In line 16 "arr[i]= arr_num;" This could lead to potential memory clogging
+```
 I was given a c++ file under the [question.cpp](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/question.cpp) and it was stated it had a Buffer Overflow Attack vulnerability, and I was to create a application in order to crash that application.
 
 So I made [application_crasher.py](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/application_crasher.py) which is written in `python3.8` in order to crash that [question.cpp](https://github.com/Sainya-Ranakshetram-Submission/Buffer-Overflow-Attack/blob/master/question.cpp).
